@@ -1,11 +1,11 @@
 //get to listen to an event
    window.addEventListener("keydown", keyPressed);
 
-
+//the function for the event listener
    function keyPressed(s){
     console.log(s)
-     const audio = document.querySelector(`audio[data-key='${s.keyCode}']`)
-     const key = document.querySelector(`div[data-key='${s.keyCode}']`)
+     const audio = document.querySelector(`audio[data-key='${s.keyCode}']`)//getting the audio from the dom
+     const key = document.querySelector(`div[data-key='${s.keyCode}']`)//getting all the divs from the dom
     //  console.log(audio)
      if (!audio) return;  //stop the function from running all together
      audio.currentTime = 0 
