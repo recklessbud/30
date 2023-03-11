@@ -14,7 +14,8 @@
 
    body{
      font-size: 2rem;
-      display: flex;
+      display: flex; 
+      
        align-items: center;
       justify-content: center;
        flex: 1;
